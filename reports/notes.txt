@@ -1,0 +1,17 @@
+## With SMOTE-Tomek Links method
+# Define model
+model2=RandomForestClassifier()
+# Define SMOTE-Tomek Links
+resample2=SMOTETomek(tomek=TomekLinks(sampling_strategy='all'), smote=SMOTE(k_neighbors=1))
+# Define scaling
+scaler = RobustScaler()
+# Define pipeline
+pipeline2=Pipeline(steps=[('r', resample2), ('q', scaler), ('m', model2)])
+# Define evaluation procedure (here we use Repeated Stratified K-Fold CV)
+# Evaluate model
+scoring=['accuracy','precision_macro','recall_macro']
+scores2 = cross_validate(pipeline2, X, y, scoring=scoring)
+# summarize performance
+print('Mean Accuracy: %.4f' % np.mean(scores2['test_accuracy']))
+print('Mean Precision: %.4f' % np.mean(scores2['test_precision_macro']))
+print('Mean Recall: %.4f' % np.mean(scores2['test_recall_macro']))

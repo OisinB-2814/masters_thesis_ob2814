@@ -90,3 +90,5 @@ target/
 
 # Default Python version for pyenv folder
 .python-version
+
+/models/

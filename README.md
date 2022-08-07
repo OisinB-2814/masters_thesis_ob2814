@@ -1,52 +1,15 @@
 Masters_Thesis_OB2814
 ==============================
 
-An original masters thesis as part of my AI course
+An original masters thesis as part of my AI course 
 
 Project Organization
 ------------
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+<div align="center"> 
+    The BER of households can be predicted using general household characteristics to an accuracy of 80%.
+</div>
+
+\
+The topic of energy efficiency is one of the most prevalent topics in our society today. The move towards environmentally friendly practices has seen a dramatic rise in popularity, in both the private and public sectors, as well as within the general public. A variety of approaches have been taken in this regard. Journals published as early as the 1980s have broached different approaches in search of the ideal model. The scope of this topic governs every industry in the world, and is imperative to a sustainable future for humankind. Initially, the studies in this field focused on efforts to improve the efficiency of buildings during their construction period. This has evolved in the age of information through the use of computational models to predict what can impact energy usage in a building, whether it be a school, office or water treatment plant.
+
